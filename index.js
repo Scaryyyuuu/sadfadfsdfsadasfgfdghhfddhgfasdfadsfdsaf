@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "+";//istediğiniz gibi ayarlayabilirsiniz prefixi
 var statuses = [`Çekiliş Duyuru`];
 var timers = 2;
-const owners = ["628244379936620546"];//botu kullanmak için sahip_id girmeyi unutmayın
+const owners = [""];//botu kullanmak için sahip_id girmeyi unutmayın
 
 client.on("ready", () => {
   console.log(`Giriş Yapıldı: ${client.user.tag}`);
